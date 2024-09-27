@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+    .sections {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sec-part{
+        margin-top: 50px;
+    }
+
+    .events {
+        display: block;
+        text-align: center;
+    }
+
+    .events img {
+        margin-top: 10px;
+    }
+
+    .teams {
+        display: block;
+        text-align: center;
+    }
+
+    .up-event{
+    text-align: center;
+    margin-right: 60px;
+    }
+
+    .executing-team  {
+        text-align: center;
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .logo{
+        width: 50px;
+    }
+
+    .header h2 {
+        font-size: small;
+    }
+
+    .header p{
+        font-size:small;
+        margin-top: 30px;
+     
+    }
+
+    .nav-links a{
+           font-size: small;
+    }
+    
+    
+}
+
+@media screen and (max-width:375){
+    .header{
+        display: flex;
+       
+    }
+
+
+
+}
+
+@media screen and (max-width: 320px){
+    .nav-links{
+        display: none;
+    }
+}
